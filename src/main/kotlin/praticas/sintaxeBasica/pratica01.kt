@@ -1,4 +1,5 @@
-package br.ifpb.pdm.praticas
+
+package br.ifpb.pdm.praticas.sintaxeBasica
 
 class Livro(val titulo: String, val preco: Float) {
     override fun toString(): String {
