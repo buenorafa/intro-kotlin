@@ -59,11 +59,14 @@ fun mostrarNotas(materia:String){
         if (listaNotas != null) {
             var cont = 1
             var media = calcularMedia(listaNotas)
+            println("Notas de $materia")
+            println()
             for(nota:Double in listaNotas){
                 println("Nota ${cont++}: $nota")
             }
             println()
             println("Média: $media")
+            println()
         }
         else{
             println("Não foi possível mostrar as notas da matéria ${materia}")
